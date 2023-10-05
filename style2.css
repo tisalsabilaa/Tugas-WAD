@@ -1,0 +1,10 @@
+body{
+    background-color: lemonchiffon;
+    background-image: url(file:///C:/Users/USER/Downloads/more-leaves.png);
+    background-repeat: inherit;
+    background-position: right;
+}
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(20, 48, 230);
+}
