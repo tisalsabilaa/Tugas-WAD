@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Change Image</title>
+    </head>
+    <body>
+        <h1>Javascript Can Change Images</h1>
+        <img id="myImage" onclick="changeImage()" src="https://nuscimagazine.com/wp-content/uploads/2022/09/Image_20220929_033449_039-1000x726.jpeg" width="300" height="180">
+        <p>Click the image to change image.</p>
+        <script>
+            function changeImage() {
+                var image = document.getElementById('myImage')
+                if (image.src.match("bulbon")) {
+                    image.src = "https://nuscimagazine.com/wp-content/uploads/2022/09/Image_20220929_033449_039-1000x726.jpeg";
+                } else {
+                    image.src = "https://thumbs.dreamstime.com/b/funny-crazy-cat-evil-white-open-mouth-61209625.jpg"
+                }
+                } 
+        </script>
+    </body>
+</html>
